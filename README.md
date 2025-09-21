@@ -1,5 +1,17 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
+  <a href="https://unity.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" alt="unity" width="40" height="40"/> 
+  </a>&nbsp;&nbsp;
+  
+  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
+  </a>
+</p>
+<hr style="width: 100%; border: 1px solid #ccc; margin: 10px 0;">
+<p align="left"> 
+
+  
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
   </a>&nbsp;&nbsp;
