@@ -4,7 +4,7 @@
 
 ### Generative AI Engineer · RAG Systems · LLM Application Developer
 
-**I build LLM-powered systems that stay grounded, cite their sources, and get measured — not just demoed.**
+**I build LLM-powered systems that stay grounded, cite their sources, and get measured not just demoed.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pavith-raj)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pavithraj802@gmail.com)
@@ -18,20 +18,20 @@
 
 I'm a Generative AI Developer at **Karanji Infotech Pvt Ltd**, where I design and ship LLM-powered automation systems that are actually in production, not just prototypes. My focus is **Retrieval-Augmented Generation (RAG)**, **prompt engineering**, and full-stack AI products that people can rely on.
 
-My flagship project, **ComplianceIQ**, is a citation-enforced RAG assistant for RBI/SEBI/IRDAI regulatory documents — every answer is grounded in a retrieved source and evaluated with RAGAS. I care about the difference between an LLM that *sounds* right and one that's *verifiably* right, and that distinction shapes how I design retrieval pipelines, prompts, and evaluation loops.
+My flagship project, **ComplianceIQ**, is a citation-enforced RAG assistant for RBI/SEBI/IRDAI regulatory documents every answer is grounded in a retrieved source and evaluated with RAGAS. I care about the difference between an LLM that *sounds* right and one that's *verifiably* right, and that distinction shapes how I design retrieval pipelines, prompts, and evaluation loops.
 
-Before GenAI, I trained as a VR/Unity developer — where I picked up an instinct for real-time, interactive systems that I now bring to AI product design.
+Before GenAI, I trained as a VR/Unity developer where I picked up an instinct for real-time, interactive systems that I now bring to AI product design.
 
 ---
 
 ## 💼 What I'm Building at Karanji Infotech
 
-- 🎬 **AI Storyboard Generation Platform** — Gemini 3.1 Pro + LangChain pipeline automating scene descriptions, character dialogue, and visual prompts, cutting storyboard creation effort by ~70%.
-- 📚 **E-Learning Script & Module Generator (ESLM)** — Multi-step prompt chaining with Gemini 3.1 Pro and structured output, letting non-technical users generate course-ready content in under 15 minutes (~80% reduction in instructional design effort).
-- 📊 **Progress Tracker Platform** — Full-stack project tracking tool (Next.js, Supabase, Node.js, Google Cloud Run) for monitoring project progress and team coordination.
-- ⚙️ **CI/CD Pipelines** — GitHub Actions workflows automating build, test, and deploy for cloud-hosted applications.
+- 🎬 **AI Storyboard Generation Platform** : Gemini 3.1 Pro + LangChain pipeline automating scene descriptions, character dialogue, and visual prompts, cutting storyboard creation effort by ~70%.
+- 📚 **E-Learning Script & Module Generator (ESLM)** : Multi-step prompt chaining with Gemini 3.1 Pro and structured output, letting non-technical users generate course-ready content in under 15 minutes (~80% reduction in instructional design effort).
+- 📊 **Progress Tracker Platform** : Full-stack project tracking tool (Next.js, Supabase, Node.js, Google Cloud Run) for monitoring project progress and team coordination.
+- ⚙️ **CI/CD Pipelines** : GitHub Actions workflows automating build, test, and deploy for cloud-hosted applications.
 
-*These are internal/proprietary systems built for my employer, so there's no public repo — happy to walk through the architecture in an interview.*
+*These are internal/proprietary systems built for my employer, so there's no public repo happy to walk through the architecture in an interview.*
 
 ---
 
@@ -94,9 +94,9 @@ Before GenAI, I trained as a VR/Unity developer — where I picked up an instinc
 
 ## 🚀 Featured Projects
 
-### 🔍 [ComplianceIQ](https://github.com/pavith-raj/ComplianceIQ) — Citation-Enforced RAG Assistant for Regulatory Compliance
+### 🔍 [ComplianceIQ](https://github.com/pavith-raj/ComplianceIQ) Citation-Enforced RAG Assistant for Regulatory Compliance
 
-> A RAG assistant that refuses to answer questions it can't ground in a retrieved source — built for RBI/SEBI/IRDAI regulatory documents.
+> A RAG assistant that refuses to answer questions it can't ground in a retrieved source built for RBI/SEBI/IRDAI regulatory documents.
 
 **Problem it solves:** Regulatory and compliance teams can't afford an AI assistant that hallucinates a rule that doesn't exist. ComplianceIQ enforces page-level citations on every answer and blocks responses that fall outside the ingested document corpus.
 
@@ -104,31 +104,31 @@ Before GenAI, I trained as a VR/Unity developer — where I picked up an instinc
 
 **AI/LLM technologies:** Hybrid retrieval (BM25 + vector embeddings) · ChromaDB · Groq-hosted Llama 3.3 · forced-grounding prompt design · RAGAS evaluation (faithfulness, answer relevancy, context precision) against a hand-curated golden question set
 
-**Key impact:** Every answer is traceable back to a specific page in a regulatory circular — no ungrounded output ships.
+**Key impact:** Every answer is traceable back to a specific page in a regulatory circular no ungrounded output ships.
 
 🔗 **Repo:** [github.com/pavith-raj/ComplianceIQ](https://github.com/pavith-raj/ComplianceIQ)
 🌐 **Live demo:** _coming soon_
 
 ---
 
-### 💄 [AuraX](https://github.com/pavith-raj/AuraX) — AI Beauty & Salon Management Platform
+### 💄 [AuraX](https://github.com/pavith-raj/AuraX) AI Beauty & Salon Management Platform
 
 > A mobile-first salon management app with computer-vision-powered beauty recommendations.
 
-**Problem it solves:** Salons need both efficient booking/queue operations and a way to offer personalized recommendations — most tools do one or the other.
+**Problem it solves:** Salons need both efficient booking/queue operations and a way to offer personalized recommendations most tools do one or the other.
 
 **Tech stack:** React Native · Node.js · MongoDB · Python
 
 **AI/LLM technologies:** Computer vision (OpenCV) for skin analysis and hairstyle prediction, feeding a personalized cosmetic product recommendation engine
 
-**Key impact:** Full-stack mobile app covering appointment booking, real-time queue management, JWT authentication, and RBAC — end to end, not just the AI layer.
+**Key impact:** Full-stack mobile app covering appointment booking, real-time queue management, JWT authentication, and RBAC end to end, not just the AI layer.
 
 🔗 **Repo:** [github.com/pavith-raj/AuraX](https://github.com/pavith-raj/AuraX)
 🌐 **Live demo:** _not yet public_
 
 ---
 
-### 📝 [Question Paper Generation System](https://github.com/pavith-raj/question-paper-generator) — Automated Exam Paper Creation
+### 📝 [Question Paper Generation System](https://github.com/pavith-raj/question-paper-generator) Automated Exam Paper Creation
 
 > A web app that automates dynamic question paper creation from a managed question bank.
 
@@ -178,7 +178,7 @@ Before GenAI, I trained as a VR/Unity developer — where I picked up an instinc
 
 ### 🧭 Philosophy
 
-*"I'd rather ship an AI system that says 'I don't know' than one that confidently makes something up. Grounding, citations, and evaluation aren't extras — they're the actual engineering work."*
+*"I'd rather ship an AI system that says 'I don't know' than one that confidently makes something up. Grounding, citations, and evaluation aren't extras they're the actual engineering work."*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=pavith-raj&color=blue&style=flat-square&label=Profile+Views)
 
